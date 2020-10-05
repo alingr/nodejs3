@@ -1,0 +1,14 @@
+#cars {
+    text-align: center;
+    
+}
+
+#fleet{
+    color: darkred;
+    text-align: center;
+}
+
+
+#fleet tr:hover{
+    background-color: lightgrey;
+}

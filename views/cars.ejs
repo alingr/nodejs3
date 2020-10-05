@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="assets/style.css" type='text/css' rel='stylesheet'/>
+    </head>
+
+    <body>
+        <table id="cars" class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">My Cars</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <% for (var i = 0; i < cars.length;  i++) { %>
+                    <tr>
+                        <td scope="row"><%= i+1 %></td>
+                        <td scope="row"><%= cars[i] %></td>
+                    </tr>    
+                <% } %>
+            </tbody>
+            
+        </table>
+    </body>
+</html>
